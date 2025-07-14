@@ -1,0 +1,6 @@
+telegram_bot_with_admin_panel/
+├── main.py                  # ✅ টেলিগ্রাম বটের মূল স্ক্রিপ্ট (রেজিস্ট্রেশন, ইমেইল ভেরিফিকেশন, রেফারেল লিংক)
+├── admin_panel.py          # ✅ Flask দিয়ে বানানো Admin Panel (কে কে রেজিস্ট্রেশন করেছে দেখতে)
+├── requirements.txt        # ✅ যেসব লাইব্রেরি লাগবে Render-এ ইনস্টল করার জন্য
+└── templates/
+    └── admin.html          # ✅ Admin Panel এর জন্য HTML টেমপ্লেট (ওয়েব ইন্টারফেস)
